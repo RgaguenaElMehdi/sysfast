@@ -1,0 +1,17 @@
+{
+    "name": "sysfast/generator",
+    "description": "preconfigured crud",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sysfast\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers" : [
+                 "Sysfast\\CrudServiceProvider"
+            ]
+        }
+    }
+}
